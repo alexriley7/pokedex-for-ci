@@ -12,3 +12,12 @@ jobs:
       - name: Echo the message
         run: |
           echo "Hola midu! ueueueueueueeu"
+
+      - name: Echo the message2
+        run: |
+          echo "second message"
+      - name: Run Path
+        run: pwd
+      - name: Run Path
+        run: ls -ltra
+          
